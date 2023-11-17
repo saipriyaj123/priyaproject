@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #d3d3d3; /* Ash color */
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+        }
+        header img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+            margin: 0 auto; /* Center the image */
+        }
+        form {
+            max-width: 400px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        label {
+            display: block;
+            margin-bottom: 8px;
+        }
+        input {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 20px;
+            box-sizing: border-box;
+        }
+        button {
+            background-color: #4CAF50; /* Green color */
+            color: #fff;
+            padding: 10px 15px;
+            font-size: 16px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <img src="https://th.bing.com/th/id/OIP.jtCz80YQPgCpeM86fTZAlAHaHa?rs=1&pid=ImgDetMain" alt="Your Logo">
+    </header>
+<nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <!-- Link back to the main page -->
+      </ul>
+    </nav>
+
+
+    <form action="process-login.php" method="post">
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username" required>
+
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required>
+
+       <button type="button" onclick="login()">Login</button>
+    </form>
+
+    <script>
+        // JavaScript function to handle login
+        function login() {
+            // Your login logic here
+
+            // Redirect to Products and Services page
+            window.location.href = "products and services.html";
+        }
+    </script>
+
+    <footer>
+        <p>&copy; 2023 SkillShare Hub. All rights reserved.</p>
+    </footer>
+</body>
+</html>
+

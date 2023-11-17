@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reviews and Ratings - SkillShare Hub</title>
+    <style>
+        /* Add your CSS styles here */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+        }
+        section {
+            padding: 20px;
+        }
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 2px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body bgcolor="#d3d3d3">
+
+    <header>
+          <img src="https://th.bing.com/th/id/OIP.jtCz80YQPgCpeM86fTZAlAHaHa?rs=1&pid=ImgDetMain" alt="Reduced Image" width="150" height="150">
+    </header>
+
+ <li><a href="index.html">Home</a></li>
+    <section>
+        <h1>Reviews and Ratings</h1>
+
+        <!-- Introduction to Reviews and Ratings -->
+        <div>
+            <h2>Feedback from Our Community</h2>
+            <p>Explore and contribute to the feedback shared by our community members. Reviews and ratings help build trust and ensure a positive experience for everyone.</p>
+        </div>
+
+        <!-- View Reviews -->
+        <div>
+            <h2>View Reviews</h2>
+            <p>Browse through reviews and testimonials from users who have utilized services on SkillShare Hub. Get insights into the quality and satisfaction of each service.</p>
+            <!-- Add your view reviews HTML code here -->
+            <div>
+                <h3>User Reviews:</h3>
+                <ul>
+                    <li>Excellent web development service! - 5 stars</li>
+                    <li>Graphic design exceeded my expectations. - 4 stars</li>
+                    <!-- Add more user reviews as needed -->
+                </ul>
+            </div>
+        </div>
+
+        <!-- Provide Feedback -->
+        <div>
+            <h2>Provide Feedback</h2>
+            <p>Share your experience by providing feedback and ratings for the services you've used. Your input helps other users make informed decisions when choosing a service provider.</p>
+            <!-- Add your provide feedback HTML code here -->
+            <form action="submit_feedback.php" method="post">
+                <label for="feedback">Your Feedback:</label>
+                <textarea id="feedback" name="feedback" rows="4" required></textarea>
+
+                <label for="rating">Rating:</label>
+                <input type="number" id="rating" name="rating" min="1" max="5" required>
+
+                <button type="submit">Submit Feedback</button>
+            </form>
+        </div>
+
+        <!-- Service Provider Ratings -->
+        <div>
+            <h2>Service Provider Ratings</h2>
+            <p>Service providers can view...</p>
+            <!-- Add your service provider ratings HTML code here -->
+            <div>
+                <h3>My Service Ratings:</h3>
+                <p>Web Development: 4.8 stars</p>
+                <p>Graphic Design: 4.5 stars</p>
+                <!-- Add more service ratings as needed -->
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 SkillShare Hub. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>

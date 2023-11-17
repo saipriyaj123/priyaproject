@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - SkillShare Hub</title>
+    <style>
+        /* Add your CSS styles here */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+        }
+        section {
+            padding: 20px;
+        }
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 2px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body bgcolor="#d3d3d3">
+
+    <header>
+        <img src="https://th.bing.com/th/id/OIP.jtCz80YQPgCpeM86fTZAlAHaHa?rs=1&pid=ImgDetMain" alt="Reduced Image" width="150" height="150">
+    </header>
+
+     <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <!-- Link back to the main page -->
+      </ul>
+    </nav>
+
+    <section>
+        <h1>Contact Us</h1>
+
+        <!-- Contact Information -->
+        <div>
+            <h2>Reach Out to SkillShare Hub</h2>
+
+            <!-- Contact Form -->
+            <form action="submit_contact_form.php" method="post">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+
+                <button type="submit">Submit</button>
+            </form>
+
+            <!-- Contact Details -->
+            <div>
+                <h3>Contact Information:</h3>
+                <p>Email: info@skillsharehub.com</p>
+                <p>Phone: +1 (123) 456-7890</p>
+                <!-- Add more contact details as needed -->
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 SkillShare Hub. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
